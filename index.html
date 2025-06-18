@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>30 Dias com Você – Julho de 2025</title>
+  <link rel="stylesheet" href="css.css">
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>30 Dias com Você – Julho de 2025</h1>
+      <p class="subtitle">Mesmo longe, meu coração tá contigo todos os dias.</p>
+    </header>
+    <main>
+      <div id="calendar" class="calendar-grid"></div>
+    </main>
+  </div>
+
+  <!-- Modal Cadeado -->
+  <div id="lock-modal" class="modal hidden">
+    <div class="modal-content">
+      <span id="lock-emoji" class="lock-emoji shake">🔒</span>
+    </div>
+  </div>
+
+  <!-- Modal Mensagem -->
+  <div id="message-modal" class="modal hidden">
+    <div class="modal-content">
+      <span id="message-day"></span>
+      <p id="message-text"></p>
+      <button id="close-message">Fechar</button>
+    </div>
+  </div>
+
+  <script src="js.js"></script>
+</body>
+</html>
