@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>28 Dias Longe de Você – Julho de 2025</title>
+  <!-- Fonts e CSS -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Montserrat:wght@400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css.css">
+  <script src="js.js" defer></script>
+</head>
+<body>
+  <!-- Estrutura principal -->
+  <div class="container">
+    <header>
+      <h1 style="font-family:'Dancing Script',cursive; color:#8e24aa; font-size:2.5rem; margin-bottom:8px;">28 Dias Longe de Você</h1>
+      <p class="subtitle" style="color:#6a1b9a; font-family:'Montserrat',Arial,sans-serif; font-size:1.2rem;">Julho de 2025</p>
+    </header>
+    <main>
+      <div id="timers" class="timer"></div>
+      <div id="calendar" class="calendar-grid"></div>
+      <div id="timer-july28" class="timer"></div>
+    </main>
+  </div>
+
+  <!-- Modal Cadeado -->
+  <div id="lock-modal" class="modal hidden">
+    <div class="modal-content">
+      <span id="lock-emoji" class="lock-emoji"></span>
+    </div>
+  </div>
+
+  <!-- Modal Mensagem -->
+  <div id="message-modal" class="modal hidden">
+    <div class="modal-content">
+      <h2 style="color:#8e24aa; font-family:'Dancing Script',cursive;">Dia <span id="message-day"></span></h2>
+      <p id="message-text" style="color:#6a1b9a; font-family:'Montserrat',Arial,sans-serif;"></p>
+      <button id="close-message" class="btn">Fechar</button>
+    </div>
+  </div>
+
+  <!-- Chuva de corações -->
+  <div id="chuva-coracoes"></div>
+</body>
+</html>
