@@ -280,7 +280,7 @@ button:hover, .btn:hover {
   }
   .day {
     max-width: 48px;
-    min-width: 28px;
+    min-width: 55px;
     height: 36px;
     font-size: 0.95rem;
   }
