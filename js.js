@@ -45,7 +45,15 @@ for (let i = 1; i <= 28; i++) {
   dia.dataset.dia = i;
 
   const visto = localStorage.getItem("dia" + i);
-  const desbloqueado = podeDesbloquear && i <= diaAtual;
+  let desbloqueado;
+  if (i === 28) {
+    // Só desbloqueia o dia 28 depois das 8:30 do dia 28/07/2025
+    const now = new Date();
+    const unlockDate = new Date(2025, 6, 28, 8, 30, 0, 0); // 28/07/2025 08:30
+    desbloqueado = podeDesbloquear && now >= unlockDate;
+  } else {
+    desbloqueado = podeDesbloquear && i <= diaAtual;
+  }
 
   if (!desbloqueado) {
     dia.classList.add("locked");
@@ -53,7 +61,14 @@ for (let i = 1; i <= 28; i++) {
   }
 
   dia.addEventListener("click", () => {
-    if (!desbloqueado) return;
+    // Para o dia 28, só permite abrir após 8:30
+    if (i === 28) {
+      const now = new Date();
+      const unlockDate = new Date(2025, 6, 28, 8, 30, 0, 0);
+      if (now < unlockDate) return;
+    } else {
+      if (!desbloqueado) return;
+    }
 
     const jaViu = localStorage.getItem("dia" + i);
 
@@ -129,9 +144,16 @@ function tempoFormatado(d, h, m, s) {
 // -------------------- FUNÇÕES DE TEMPO PARA DESBLOQUEIO E CONTAGEM --------------------
 function getNextUnlockTime() {
   const now = new Date();
-  let next = new Date(now.getFullYear(), 6, now.getDate() + 1, 0, 0, 0, 0);
-  if (now.getMonth() !== 6 || now.getDate() >= 28) return null;
-  return next;
+  // Se for dia 27 de julho, o próximo é 28/07 às 8:30
+  if (now.getMonth() === 6 && now.getDate() === 27) {
+    return new Date(2025, 6, 28, 8, 30, 0, 0);
+  }
+  // Se for antes do dia 28, desbloqueia à meia-noite do próximo dia
+  if (now.getMonth() === 6 && now.getDate() < 27) {
+    return new Date(now.getFullYear(), 6, now.getDate() + 1, 0, 0, 0, 0);
+  }
+  // Se for dia 28 ou depois, não há próximo desbloqueio
+  return null;
 }
 
 function getTimeToUnlockExtenso() {
