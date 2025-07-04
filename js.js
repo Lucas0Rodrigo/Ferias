@@ -16,7 +16,7 @@ const mensagens = [
   "Mais um dia sem ver você... Se realmente formos ao cinema dia 14, já estamos no meio do caminho. Amo você, princesa.",
   "Hoje a mensagem é sua. <3 Te amo D+ gatinha.",
   "É mais fácil escrever no dia do que antes... A criatividade já está acabando kkkkk. Mas eu te amo muitão, viu?",
-  "Se você viu essa mensagem, por favor me manda um 'Oi, vem sempre aqui?' Não questiona, só faz! Eu te amo mais que o infinito.",
+  "Oii minha princesa, como vai? em 4 dias vamos nos ver ein kkkkk ansioso por isso <3. Amo você d",
   "28 - 11 = 17. É o que falta para nos vermos (desconsiderando o cinema, porque no dia em que escrevi isso não era certeza). Amo você, princesa.",
   "\"Você deve ser uma onda de luz, porque toda vez que te vejo, meu coração reflete só para você!\" O Chat manda bem nas cantadas kkkk. Te amo D+ gatinha.",
   "Se ganhamos um 'Sim' pro cinema, é amanhã... Espero que dê certo :) Eu te amo mais que o infinito.",
