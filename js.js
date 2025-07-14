@@ -12,11 +12,11 @@ const mensagens = [
   "Oi gatinha, como vai? Hoje trouxe uma cantada que você já me passou kkkk -> Seu pai é mecânico? Porque você é uma graxinha <333 kkkkk. Amo você, princesa.",
   "Dia 4... Só quero que você saiba que eu te amo muuuuito e nunca vou te abandonar, ok? Pode contar comigo sempre.",
   "Já foram 5 dias de 28, gatinha. Vai passar rápido, você vai ver! Te amo D+ gatinha. Sua mensagem: \"Oii, aqui é a Julia de ontem, hj vc provavelmente vai pro sítio (espero que eles gostem da sua sobremesa)\" ",
-  "(x² + y² - 1)³ = x² y³ — GeoGebra. Eu te amo mais que o infinito.",
+  "(x² + y² - 1)³ = x² y³ — GeoGebra. Eu te amo mais que o infinito. (0)",
   "Mais um dia sem ver você... Se realmente formos ao cinema dia 14, já estamos no meio do caminho. Amo você, princesa.",
   "Hoje a mensagem é sua. <3 Te amo D+ gatinha.",
-  "É mais fácil escrever no dia do que antes... A criatividade já está acabando kkkkk. Mas eu te amo muitão, viu?",
-  "Oii minha princesa, como vai? em 4 dias vamos nos ver ein kkkkk ansioso por isso <3. Amo você d",
+  "É mais fácil escrever no dia do que antes... A criatividade já está acabando kkkkk. Mas eu te amo muitão, viu? (8)",
+  "Oii minha princesa, como vai? em 4 dias vamos nos ver ein kkkkk ansioso por isso <3. Amo você d+ (5)",
   "28 - 11 = 17. É o que falta para nos vermos (desconsiderando o cinema, porque no dia em que escrevi isso não era certeza). Amo você, princesa.",
   "\"Você deve ser uma onda de luz, porque toda vez que te vejo, meu coração reflete só para você!\" O Chat manda bem nas cantadas kkkk. Te amo D+ gatinha.",
   "Se ganhamos um 'Sim' pro cinema, é amanhã... Espero que dê certo :) Eu te amo mais que o infinito. \"Tem coisas que a gente escreve que ficam mais vivas do que parece...\"",
@@ -26,7 +26,7 @@ const mensagens = [
   "A partir de amanhã eu começo uma contagem de 10 até 0, hein. Eu te amo mais que o infinito.",
   ">10< Tá acabandooooo. As mensagens dos dias: 19; 20; 21; 22 se completam. Anote-as! Amo você, princesa.",
   ">9< Só quero dizer que te amo muuuuuuuuuito.",
-  ">8< Mas...",
+  ">8< Mas... (3)",
   ">7< Eu amo mais :)",
   ">6< Mais do que você pode imaginar!!!",
   ">5< Apenas 5 dias, amorzinho. Vamos sobreviver kkkkk. Te amo D+ gatinha.",
@@ -34,7 +34,7 @@ const mensagens = [
   ">3< Treeeeesssss diasssssss... Finalmente. A última sexta-feira! Amo você, princesa.",
   ">2< Doiiiiiissss... Aposto que estou com saudade do seu rostinho lindo e do seu sorriso :) Te amo D+ gatinha.",
   ">1< É amanhã, amorzinhooo. Finalmente acabou nossa sentença kkkkk. Te amo demais, viu? (A mensagem de amanhã eu quero que você abra junto comigo na escola).",
-  "Oii meu amor... Quero expressar por essa mensagem o quanto foi legal preparar isso tudo pra você, espero de coração que você tenha gostado do seu presente. Se você gostou, ao terminar de ler essa mensagem me abraça kkkkk... Eu te amo demais, princesa. Quero passar todos os dias da minha vida ao seu lado te dando muito amor e carinho. Obrigado por existir. De: Seu futuro marido. Lucas <3"
+  "Oii meu amor... Quero expressar por essa mensagem o quanto foi legal preparar isso tudo pra você, espero de coração que você tenha gostado do seu presente. Se você gostou, ao terminar de ler essa mensagem me abraça kkkkk... Eu te amo demais, princesa. Quero passar todos os dias da minha vida ao seu lado te dando muito amor e carinho. Obrigado por existir. De: Seu futuro marido. Lucas <3 (2)"
 ];
 
 // -------------------- CALENDÁRIO --------------------
