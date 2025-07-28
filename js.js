@@ -64,7 +64,7 @@ for (let i = 1; i <= 28; i++) {
     // Para o dia 28, só permite abrir após 8:30
     if (i === 28) {
       const now = new Date();
-      const unlockDate = new Date(2025, 6, 28, 8, 30, 0, 0);
+      const unlockDate = new Date(2025, 6, 28, 9, 0, 0, 0);
       if (now < unlockDate) return;
     } else {
       if (!desbloqueado) return;
