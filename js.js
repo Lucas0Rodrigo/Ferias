@@ -26,7 +26,7 @@ const mensagens = [
   "A partir de amanhã eu começo uma contagem de 10 até 0, hein. Eu te amo mais que o infinito.",
   ">10< Tá acabandooooo. As mensagens dos dias: 19; 20; 21; 22 se completam. Anote-as! Amo você, princesa.",
   ">9< Só quero dizer que te amo muuuuuuuuuito.",
-  ">8< Mas... (3)",
+  ">< Mas... (3)",
   ">7< Eu amo mais :)",
   ">6< Mais do que você pode imaginar!!!",
   ">5< Apenas 5 dias, amorzinho. Vamos sobreviver kkkkk. Te amo D+ gatinha.",
@@ -49,7 +49,7 @@ for (let i = 1; i <= 28; i++) {
   if (i === 28) {
     // Só desbloqueia o dia 28 depois das 8:30 do dia 28/07/2025
     const now = new Date();
-    const unlockDate = new Date(2025, 6, 28, 8, 30, 0, 0); // 28/07/2025 08:30
+    const unlockDate = new Date(2025, 6, 28, 9, 0, 0, 0); // 28/07/2025 08:30
     desbloqueado = podeDesbloquear && now >= unlockDate;
   } else {
     desbloqueado = podeDesbloquear && i <= diaAtual;
