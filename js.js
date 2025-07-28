@@ -146,7 +146,7 @@ function getNextUnlockTime() {
   const now = new Date();
   // Se for dia 27 de julho, o próximo é 28/07 às 8:30
   if (now.getMonth() === 6 && now.getDate() === 27) {
-    return new Date(2025, 6, 28, 8, 30, 0, 0);
+    return new Date(2025, 6, 28, 9, 0, 0, 0);
   }
   // Se for antes do dia 28, desbloqueia à meia-noite do próximo dia
   if (now.getMonth() === 6 && now.getDate() < 27) {
